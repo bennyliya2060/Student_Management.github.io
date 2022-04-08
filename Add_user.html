@@ -17,37 +17,38 @@
       <br>
       <!--form heading-->
       <h1>Please fillout this form</h1>
-    <form>
+    <form name="myform">
         <!--form feilds-->
         <label for="fname">Name:</label>
-        <input type="text" id="fname" name="fname">
+        <input type="text" id="fname" name="name">
         <br>
         <br>
-        <label for="lname">User id:</label>
-        <input type="text" id="lname" name="lname">
+        <label for="user id">User id:</label>
+        <input type="text" id="user" name="userid">
         <br>
         <br>
-        <label for="lname">Phone.no:</label>
-        <input type="text" id="lname" name="lname">
+        <label for="phone">Phone.no:</label>
+        <input type="text" id="phno" name="phoneno">
         <br>
         <br>
-        <label for="lname">Reg.id:</label>
-        <input type="text" id="lname" name="lname"> 
+        <label for="reg.id">Reg.id:</label>
+        <input type="text" id="reg" name="regid"> 
         <br>
         <br>
-        <label for="lname">District:</label>
-        <input type="text" id="lname" name="lname">
+        <label for="district">District:</label>
+        <input type="text" id="dis" name="distct">
         <br>
         <br>
-        <label for="lname">Upload your photo</label>
-        <input type="file" id="lname" name="lname">
+        <label for="photo">Upload your photo</label>
+        <input type="file" id="photo" name="image">
         <br>
         <br>
         <br>
         <!--button-->
-        <input type="button" value="Submit">
-        <input type="submit" value="Cancel">
+        <button class="submit-button" type="submit">Submit</button>
+        <button class="cancel-button" type="submit" id="alert" onclick=(message())>Cancel</button>
     </form>
     </div>
 </body>
+<script src="./script.js"></script>
 </html>
